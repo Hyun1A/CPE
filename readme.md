@@ -3,11 +3,12 @@
 <!-- </p> -->
 
 ## Setup for experiments
-Please install packages in requirements.txt
 
 **OS**: Ubuntu 18.04.5 LTS
+
 **Python**: 3.9.19
 
+Please install packages in requirements.txt
 <pre>
 pip install -r requirements.txt
 </pre>

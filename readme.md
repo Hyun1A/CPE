@@ -1,7 +1,12 @@
-##### Setup for experiments ###
-# Please install packages in requirements.txt
-pip install -r requirements.txt
+# Official Implementation of CPE (Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate)
 
+
+## Getting Started
+### Setup for experiments
+Please install packages in requirements.txt
+<pre>
+pip install -r requirements.txt
+</pre>
 
 ##### Celebrities Erasure #####
 # Train:

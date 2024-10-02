@@ -2,9 +2,12 @@
 # Official Implementation of CPE 
 <!-- </p> -->
 
-## Getting Started
-### Setup for experiments
+## Setup for experiments
 Please install packages in requirements.txt
+
+**OS**: Ubuntu 18.04.5 LTS
+**Python**: 3.9.19
+
 <pre>
 pip install -r requirements.txt
 </pre>

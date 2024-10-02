@@ -1,7 +1,7 @@
-<p align="center" style="font-size:50px;">
+<!--  <p align="center" style="font-size:50px;"> -->
 # Official Implementation of CPE 
 ## (Concept Pinpoint Eraser via Residual Attention Gate)
-</p>
+<!-- </p> -->
 
 ## Getting Started
 ### Setup for experiments

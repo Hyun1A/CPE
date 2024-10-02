@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center" style="font-size:24px;">
 # Official Implementation of CPE 
 ## (Concept Pinpoint Eraser via Residual Attention Gate)
 </p>

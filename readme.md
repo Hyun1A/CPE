@@ -1,5 +1,7 @@
-# Official Implementation of CPE (Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate)
-
+<p align="center">
+# Official Implementation of CPE 
+## (Concept Pinpoint Eraser via Residual Attention Gate)
+</p>
 
 ## Getting Started
 ### Setup for experiments

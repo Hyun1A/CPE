@@ -32,7 +32,7 @@ sh ./shell_scripts/celebs/generate_by_celeb_model.sh
 
 1. For generation of diverse domains such as artistic styles or characters from celebrity-erased model, please change the variable GEN_CONFIG in
    ./shell_scripts/celebs/generate_by_celeb_model.sh (config files for different domains are listed)
-2. We have already provided pre-trained ResAGs for three celebrities in ./output, so you can execute the generation without training
+2. We have already provided pre-trained ResAGs for 50 celebrities in ./output, so you can execute the generation without training
 
 
 ### Artistic Styles Erasure
@@ -48,7 +48,7 @@ sh ./shell_scripts/artists/generate_by_artist_model.sh
 
 1. For generation of diverse domains such as celebrites or characters from celebrity-erased model, 
    please change the variable GEN_CONFIG in ./shell_scripts/artists/generate_by_artist_model.sh (config files for different domains are listed)
-2. We have already provided pre-trained ResAGs for three artistic styles in ./output, so you can execute the generation without training
+2. We have already provided pre-trained ResAGs for 100 artistic styles in ./output, so you can execute the generation without training
 
 
 ## Explicit Contents Erasure

@@ -1,8 +1,13 @@
-# Official Implementation of CPE (Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate)
+<!--  <p align="center" style="font-size:50px;"> -->
+# Official Implementation of CPE 
+<!-- </p> -->
 
+## Setup for experiments
 
-## Getting Started
-### Setup for experiments
+**OS**: Ubuntu 18.04.5 LTS
+
+**Python**: 3.9.19
+
 Please install packages in requirements.txt
 <pre>
 pip install -r requirements.txt

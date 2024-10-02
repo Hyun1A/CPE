@@ -38,7 +38,7 @@ pretrained_model:
   v2: false
   v_pred: false
 prompts_file: configs/train_celeb/prompt.yaml
-replace_word: celeb
+replace_word: actor
 save:
   name: singleton_onebyone_person
   path: "output/Singleton_Celeb/celeb_50/celeb_single_guide#_pal#_gate_rank#/Celeb"

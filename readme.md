@@ -7,6 +7,12 @@
 **OS**: Ubuntu 18.04.5 LTS
 
 **Python**: 3.9.19
+<pre>
+conda create -n CPE python=3.9
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+pip install xformers
+pip install -r requirements.txt
+</pre>
 
 Please install packages in requirements.txt
 <pre>

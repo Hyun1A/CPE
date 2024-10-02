@@ -4,21 +4,11 @@ import numpy as np
 import pickle
 import pandas as pd
 import os
-import gensim.downloader, random
 import src.engine.train_util as train_util
 from src.configs.prompt import PromptEmbedsPair
 import pandas as pd
 
 class AnchorSamplerGensim():
-    def __init__(self, gensim_base:str = 'glove-twitter-100'):
-        # path는 임의로 줌
-        if not os.path.isfile(f'./{gensim_base}'):
-            print(r'======== Downloading {} word2Vec model ========')
-            self.wordVec = gensim.downloader.load('glove-twitter-100')
-            pickle.dump(self.wordVec, open(f'./{gensim_base}','wb'))
-            print(r'======== Complete ! {} word2Vec model ========')
-        else:
-            self.wordVec = pickle.load(open(f'./{gensim_base}', 'rb'))
     
     def sample_mixup_batch_cache(self, prompt_pair: PromptEmbedsPair, tokenizer=None,\
                                text_encoder=None, network=None, prompt_scripts_list=None, replace_word=None,\

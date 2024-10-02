@@ -1,0 +1,14 @@
+
+
+464K    anchors_select_prompt_guide0.0_pal100000.0_gate_rank16_noise0.001
+412K    anchors_select_prompt_guide0.3_pal1000.0_gate_rank1_noise0.001
+1.4G    anchors_select_prompt_guide0.3_pal100000.0_gate_rank16_noise0.001
+649M    anchors_select_prompt_guide0.3_pal100000.0_gate_rank1_noise0.001
+1.6G    anchors_select_prompt_guide0.3_pal1000000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide0.3_pal10000000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide0.5_pal100000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide0.5_pal1000000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide0.5_pal10000000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide1.0_pal100000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide1.0_pal1000000.0_gate_rank16_noise0.001
+1.6G    anchors_select_prompt_guide1.0_pal10000000.0_gate_rank16_noise0.001

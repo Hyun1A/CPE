@@ -10,10 +10,9 @@ Remarkable progress in text-to-image diffusion models has brought a major concer
 
 
 
+![overview](./assets/fig1_v12.png)
 
-
-
-
+![approach](assets/figure_main_cpe_v3.png)
 
 
 ## Setup for experiments

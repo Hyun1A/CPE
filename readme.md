@@ -1,8 +1,26 @@
-# Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate
+# Official Implementation of "Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate"
 
-### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [arXiv]
+### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [Paper]
 
 Official Implementation of CPE 
+
+> **MACE: Mass Concept Erasure in Diffusion Models**<br>
+<!-- > [Gwanghyun Kim](https://gwang-kim.github.io/), Taesung Kwon, [Jong Chul Ye](https://bispl.weebly.com/professor.html) <br> -->
+> Shilin Lu, Zilan Wang, Leyang Li, Yanzhu Liu, Adams Wai-Kin Kong <br>
+> CVPR 2024
+> 
+>**Abstract**: <br>
+The rapid expansion of large-scale text-to-image diffusion models has raised growing concerns regarding their potential misuse in creating harmful or misleading content. In this paper, we introduce MACE, a finetuning framework for the task of mass concept erasure. This task aims to prevent models from generating images that embody unwanted concepts when prompted. Existing concept erasure methods are typically restricted to handling fewer than five concepts simultaneously and struggle to find a balance between erasing concept synonyms (generality) and maintaining unrelated concepts (specificity). In contrast, MACE differs by successfully scaling the erasure scope up to 100 concepts and by achieving an effective balance between generality and specificity. This is achieved by leveraging closed-form cross-attention refinement along with LoRA finetuning, collectively eliminating the information of undesirable concepts. Furthermore, MACE integrates multiple LoRAs without mutual interference. We conduct extensive evaluations of MACE against prior methods across four different tasks: object erasure, celebrity erasure, explicit content erasure, and artistic style erasure. Our results reveal that MACE surpasses prior methods in all evaluated tasks.
+
+
+
+
+
+
+
+
+
+
 
 ## Setup for experiments
 

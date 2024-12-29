@@ -15,6 +15,7 @@
 ![approach](assets/figure_main_cpe_v3.png)
 > (a) Architecture of ResAG module in CA layers for selectively erasing a target concept while preserving remaining concepts. (b) To erase multiple targets during inference, we merge multiple ResAGs by only adding the ResAG of the target with the highest gate value for each token.
 >
+<\br>
 
 ## Setup for experiments
 

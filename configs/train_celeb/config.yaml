@@ -80,7 +80,4 @@ train:
   factor_init_lr: 10
   factor_init_lr_cycle: 2
   
-  # st_prompt_idx: 45
-  # end_prompt_idx: 46
-
   resume_stage: 0

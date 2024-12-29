@@ -9,13 +9,10 @@
 >
 
 ![overview](./assets/fig1_v12.png)
-> (a) Comparison of fine-tuning approaches for concept erasing. Previous methods could affect both on target and remaining concepts as they merely fine-tunes CA layers. In contrast, our method, CPE, can adatively transmit the change for target concepts to erase while successfully suppressing it for remaining concepts, by using the proposed ResAGs. (b) Qualitative results on erasing “Claude Monet” artistic style, comparing with a baseline.
->
+> (a) Comparison of fine-tuning approaches for concept erasing. Previous methods could affect both on target and remaining concepts as they merely fine-tunes CA layers. In contrast, our method, CPE, can adatively transmit the change for target concepts to erase while successfully suppressing it for remaining concepts, by using the proposed ResAGs. (b) Qualitative results on erasing “Claude Monet” artistic style, comparing with a baseline. <br>
 
 ![approach](assets/figure_main_cpe_v3.png)
-> (a) Architecture of ResAG module in CA layers for selectively erasing a target concept while preserving remaining concepts. (b) To erase multiple targets during inference, we merge multiple ResAGs by only adding the ResAG of the target with the highest gate value for each token.
->
-<\br>
+> (a) Architecture of ResAG module in CA layers for selectively erasing a target concept while preserving remaining concepts. (b) To erase multiple targets during inference, we merge multiple ResAGs by only adding the ResAG of the target with the highest gate value for each token. <br>
 
 ## Setup for experiments
 

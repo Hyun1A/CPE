@@ -1,6 +1,6 @@
 # Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate
 
-### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [Paper]
+### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [Paper](https://github.com/Hyun1A/CPE)
 
 > **Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate**<br>
 > Byung Hyun Lee1, Sungjin Lim1, Seunggyu Lee, Dong Un Kang, Se Young Chun <br>
@@ -18,7 +18,11 @@
 <br>
 <br>
 
-## Setup for experiments
+
+## Getting Started
+
+### Setup for experiments
+<br>
 
 **OS**: Ubuntu 18.04.5 LTS
 
@@ -34,8 +38,9 @@ Please install packages in requirements.txt
 pip install -r requirements.txt
 </pre>
 
-## Running Experiments
-### Celebrities Erasure
+### Experiments: Celebrities Erasure
+<br>
+
 **Train:**
 <pre>
 sh ./shell_scripts/celebs/train_celeb_cpe_single.sh
@@ -51,7 +56,9 @@ sh ./shell_scripts/celebs/generate_by_celeb_model.sh
 2. We have already provided pre-trained ResAGs for 50 celebrities in ./output, so you can execute the generation without training
 
 
-### Artistic Styles Erasure
+### Experiments: Artistic Styles Erasure
+<br>
+
 **Train:**
 <pre>
 sh ./shell_scripts/artists/train_artist_cpe_single.sh
@@ -67,7 +74,9 @@ sh ./shell_scripts/artists/generate_by_artist_model.sh
 2. We have already provided pre-trained ResAGs for 100 artistic styles in ./output, so you can execute the generation without training
 
 
-## Explicit Contents Erasure
+### Experiments: Explicit Contents Erasure
+<br>
+
 **Train:**
 <pre>
 sh ./shell_scripts/explicit/train_explicit_cpe_single.sh

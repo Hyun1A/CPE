@@ -1,6 +1,8 @@
-<!--  <p align="center" style="font-size:50px;"> -->
-# Official Implementation of CPE 
-<!-- </p> -->
+# Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate
+
+### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [arXiv]
+
+Official Implementation of CPE 
 
 ## Setup for experiments
 

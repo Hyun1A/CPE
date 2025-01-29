@@ -1,6 +1,6 @@
-# Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate
+# Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate (ICLR 2025)
 
-### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [Paper](https://github.com/Hyun1A/CPE)
+### ✏️ [Project Page](https://hyun1a.github.io/cpe.io) | 📄 [Paper](https://openreview.net/forum?id=ZRDhBwKs7l)
 
 > **Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate**<br>
 > Byung Hyun Lee, Sungjin Lim, Seunggyu Lee, Dong Un Kang, Se Young Chun <br>

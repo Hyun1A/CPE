@@ -38,7 +38,7 @@ pip install -r requirements.txt
 </pre>
 
 
-## Experiments
+## Training and Sampling 
 ### Experiments: Celebrities Erasure
 
 **Train:**
@@ -91,3 +91,49 @@ sh ./shell_scripts/explicit/generate_by_explicit_model_coco.sh
 </pre>
 
 1. We have already provided pre-trained ResAGs for four explicit concepts in ./output, so you can execute the generation without training
+
+
+## Evaluation Metrics
+
+In our paper, CPE, we utilize various metrics including [FID](https://github.com/GaParmar/clean-fid)(Fréchet Inception Distance), [KID](https://github.com/GaParmar/clean-fid)(Kernel Inception Distance), [CLIP score](https://github.com/openai/CLIP), [GIPHY Celebrity Detector](https://github.com/Giphy/celeb-detection-oss), and [NudeNet Detector](https://pypi.org/project/nudenet/) for explicit images.
+
+**Evaluate FID / KID**
+<pre>
+sh ./shell_scripts/evaluation_metrics/evaluate_fid_kid.sh
+</pre>
+
+**Evaluate CLIP Score**
+<pre>
+sh ./shell_scripts/evaluation_metrics/evaluate_clip_score.sh
+</pre>
+
+**Evaluate GHIPY Celebrity Detector**
+
+To use the GIPHY Celebrity Detector, download the official GCD code and create a conda environment for GCD by following the [official guide](https://github.com/Giphy/celeb-detection-oss). 
+(Note that the GCD Python environment is not compatible with the CPE environment.) 
+Once the GCD environment is set up, copy our detector code and run it for evaluation.
+
+<pre>
+sh ./shell_scripts/evaluation_metrics/evaluate_giphy_score.sh
+</pre>
+
+**Evaluate NudeNet Detector**
+<pre>
+sh ./shell_scripts/evaluation_metrics/evaluate_I2P.sh
+</pre>
+
+
+## Acknowledgements
+We thank the following contributors that our code is based on: [SPM](https://github.com/Con6924/SPM?tab=readme-ov-file), [MACE](https://github.com/Shilin-LU/MACE?tab=readme-ov-file).
+
+## Citation
+If you find the repo useful, please consider citing.
+
+<pre>
+@InProceedings{lee2024cpe,
+    author    = {Lee, Byung Hyun and Lim, Sungjin and Lee, Seunggyu and Kang, Dong Un and Chun, Se Young},
+    title     = {Concept Pinpoint Eraser for Text-to-image Diffusion Models via Residual Attention Gate},
+    booktitle = {ICLR},
+    year      = {2025},
+}
+</pre>

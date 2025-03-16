@@ -19,7 +19,7 @@ PAL="100000.0"
 NOISE="0.001"
 
 python ./generate/generate_cpe.py --config ${GEN_CONFIG} \
-    --model_path "./output/Singleton_Celeb/celeb_50/celeb_single_guide"${GUIDE}"_pal"${PAL}"_gate_rank"${GATE_RANK}"_noise"${NOISE} \
+    --model_path "./output/CPE_Celeb/celeb_50/celeb_single_guide"${GUIDE}"_pal"${PAL}"_gate_rank"${GATE_RANK}"_noise"${NOISE} \
     --save_env "guide"${GUIDE}"_pal"${PAL}"_gate_rank"${GATE_RANK}"_noise"${NOISE} \
     --st_prompt_idx ${GEN_ST_IDX} \
     --end_prompt_idx ${GEN_END_IDX} \

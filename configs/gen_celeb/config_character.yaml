@@ -1,7 +1,4 @@
 prompt_path: 'generation_prompts/character_64.csv'     
-
-
-
 negative_prompt: ""
 unconditional_prompt: ""             
 width: 512

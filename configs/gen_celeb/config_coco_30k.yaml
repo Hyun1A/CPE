@@ -1,7 +1,4 @@
 prompt_path: 'generation_prompts/coco_30k.csv'     
-
-
-
 negative_prompt: ""
 unconditional_prompt: ""                   
 width: 512

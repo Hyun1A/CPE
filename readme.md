@@ -107,11 +107,11 @@ sh ./shell_scripts/evaluation_metrics/evaluate_fid_kid.sh
 sh ./shell_scripts/evaluation_metrics/evaluate_clip_score.sh
 </pre>
 
-**Evaluate GHIPY Celebrity Detector**
+**Evaluate GIPHY Celebrity Detector**
 
 To use the GIPHY Celebrity Detector, download the official GCD code and create a conda environment for GCD by following the [official guide](https://github.com/Giphy/celeb-detection-oss). 
 (Note that the GCD Python environment is not compatible with the CPE environment.) 
-Once the GCD environment is set up, copy our detector code and run it for evaluation.
+After setting up the GCD environment, please refer to [our installation guide](https://github.com/Hyun1A/CPE/tree/main/metrics) in the 'metrics' folder.
 
 <pre>
 sh ./shell_scripts/evaluation_metrics/evaluate_giphy_score.sh

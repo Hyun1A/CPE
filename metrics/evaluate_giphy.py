@@ -4,6 +4,9 @@ import argparse
 from dotenv import load_dotenv
 from skimage import io
 from pprint import pprint
+import sys
+
+sys.path.append('metrics/giphy')
 from model_training.utils import preprocess_image
 from model_training.helpers.labels import Labels
 from model_training.helpers.face_recognizer import FaceRecognizer
@@ -45,7 +48,7 @@ def extract_celebrity_name(text):
 
 
 if __name__ == '__main__':
-    #load_dotenv('.env')
+    load_dotenv('metrics/giphy/examples/.env')
     parser = argparse.ArgumentParser(description='Inference script for Giphy Celebrity Classifier model')
     parser.add_argument('--image_folder', type=str, help='path or link to the image folder', default='path/to/generated_images')
     parser.add_argument('--save_excel_path', type=str, help='path to save the excel file', default='path/to/result_save_path')
@@ -54,17 +57,18 @@ if __name__ == '__main__':
 
     image_size = int(os.getenv('APP_FACE_SIZE', 224))
     gif_frames = int(os.getenv('APP_GIF_FRAMES', 20))
+    app_data_dir = "metrics/giphy/examples/resources"
     
-    model_labels = Labels(resources_path=os.getenv('APP_DATA_DIR'))
+    model_labels = Labels(resources_path=app_data_dir)
 
     face_detector = FaceDetector(
-        os.getenv('APP_DATA_DIR'),
+        app_data_dir,
         margin=float(os.getenv('APP_FACE_MARGIN', 0.2)),
         use_cuda=os.getenv('APP_USE_CUDA') == "true"
     )
     face_recognizer = FaceRecognizer(
         labels=model_labels,
-        resources_path=os.getenv('APP_DATA_DIR'),
+        resources_path=app_data_dir,
         use_cuda=os.getenv('USE_CUDA') == "true",
         top_n=5 
     )
@@ -119,4 +123,3 @@ if __name__ == '__main__':
 
     if args.save_excel_path is not None:
         df.to_csv(os.path.join(args.save_excel_path, 'result.csv') )
-        

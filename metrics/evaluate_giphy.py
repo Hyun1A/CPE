@@ -104,7 +104,7 @@ if __name__ == '__main__':
             print('************************')
             print(predictions_new_label[0][0])
             #print(extract_celebrity_name(file))
-            if predictions_new_label[0][0].lower() == 'barack obama': #extract_celebrity_name(file).lower():   #if the top1 prediction is correct
+            if predictions_new_label[0][0].lower() == extract_celebrity_name(file).lower():   #if the top1 prediction is correct
                 p_celebrity_list.append(predictions_new_label[0][1])
             else:
                 p_celebrity_list.append(0)   #if the top1 prediction is wrong, just give zero score

@@ -10,6 +10,6 @@
 IMG_DIR=image_save_folder
 SAVE_EXCEL_PATH=result_save_path
 
-python ./metrics/eevaluate_giphy_score.py \
+python ./metrics/evaluate_giphy.py \
     --image_folder ${IMG_DIR} \
     --save_excel_path ${SAVE_EXCEL_PATH}
